@@ -1,0 +1,82 @@
+body
+{
+
+background-color:white;
+color:black;
+}
+	h1{
+	margin:20px 20px 10px 20px;
+	font-size:20px;
+	color:#fff;
+	font-family: 'Volkhov', sans-serif;
+	text-align:center;
+	font-weight:700;
+	text-shadow:1px 1px 3px #333;
+	}
+
+
+
+
+#buyy
+{
+height:100px;
+width:800px;
+margin-right:auto;
+margin-left:auto;
+color:black;
+background-color:white;
+text-align:right;
+}
+
+ th, td {
+height:50px;
+width:230px;
+    border-style: solid;
+    border-width: 1px;
+	text-align:center;
+	margin-top:110px;
+}
+#nav {
+    background-color: #222;
+}
+#nav_wrapper {
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 200px;
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #333;
+}
+#nav ul li a, visited {
+    color: #CCC;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+#nav ul li:hover ul {
+    display: block;
+}
+#nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border: 5px solid #222;
+    border-top: 0;
+    margin-left: -5px;
+}
+#nav ul ul li {
+    display: block;
+}
+#nav ul ul li a:hover {
+    color: #699;
+}
